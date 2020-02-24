@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0807d28-e36b-4190-91ae-e1e9c4c55260" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YGHtJMBfPa5g8SlGgK6T2Mhmxn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.validation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\Downloads\restAssuredWorkshops2017-master\Exercicio\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wipro.exercicio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\Downloads\restAssuredWorkshops2017-master\Exercicio\src\main\resources" />
+      <recent name="C:\Users\cesar\Downloads\restAssuredWorkshops2017-master\Exercicio\src" />
+      <recent name="C:\Users\cesar\Downloads\restAssuredWorkshops2017-master\Exercicio\src\main\java\com\wipro\exercicio" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wipro.exercicio.Main" />
+      <module name="Exercicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wipro.exercicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wipro.exercicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wipro.exercicio" />
+      <option name="MAIN_CLASS_NAME" value="com.wipro.exercicio.Main" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio [site:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="site:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Exercicio [site:run]" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="JUnit.Main" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0807d28-e36b-4190-91ae-e1e9c4c55260" name="Default Changelist" comment="" />
+      <created>1582562223039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582562223039</updated>
+      <workItem from="1582562227391" duration="4974000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="636" y="288" key="#Project_Structure" timestamp="1582562257820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="288" key="#Project_Structure/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582562257820" />
+    <state x="414" y="175" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582562871617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582562871617" />
+    <state x="705" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582563796113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582563796113" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582571575991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582571575991" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582571575991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582571575991" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582571575990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582571575990" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582571575991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582571575991" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1582562440734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="284" y="0" key="SettingsEditor/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582562440734" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1582563007597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1280.-3.1280.984@0.0.1920.1040" timestamp="1582563007597" />
+  </component>
+</project>
