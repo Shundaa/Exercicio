@@ -11,7 +11,7 @@ import org.apache.http.client.fluent.Request;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-public class GitHub_Search {
+public class GitHubSearch {
     private static Gson gson;
 
     private static String GITHUB_API_BASE_URL = "https://api.github.com/";
@@ -26,14 +26,14 @@ public class GitHub_Search {
     private static JsonArray searchFileByFileName(String search) throws ClientProtocolException, IOException {
         String codeFileQuery = search;
 
-        Map fileNameSearchResult = makeRESTCall(GITHUB_API_BASE_URL + GITHUB_API_SEARCH_CODE_PATH + codeFileQuery);
+        Map<?, ?> fileNameSearchResult = makeRESTCall(GITHUB_API_BASE_URL + GITHUB_API_SEARCH_CODE_PATH + codeFileQuery);
 
         System.out.println("Total number or results = " + fileNameSearchResult.get("total_count"));
         JsonArray result = gson.toJsonTree(fileNameSearchResult).getAsJsonObject().get("items").getAsJsonArray();
         return result;
     }
 
-    private static Map makeRESTCall(String restUrl, String acceptHeaderValue)
+    private static Map<?, ?> makeRESTCall(String restUrl, String acceptHeaderValue)
             throws ClientProtocolException, IOException {
         Request request = Request.Get(restUrl);
 
@@ -46,11 +46,11 @@ public class GitHub_Search {
         // System.out.println("content = " + jsonString);
 
         // To print response JSON, using GSON. Any other JSON parser can be used here.
-        Map jsonMap = gson.fromJson(jsonString, Map.class);
+        Map<?, ?> jsonMap = gson.fromJson(jsonString, Map.class);
         return jsonMap;
     }
 
-    private static Map makeRESTCall(String restUrl) throws ClientProtocolException, IOException {
+    private static Map<?, ?> makeRESTCall(String restUrl) throws ClientProtocolException, IOException {
         return makeRESTCall(restUrl, null);
     }
 

@@ -18,8 +18,8 @@ public class Main {
 
 
         JsonArray project = new JsonArray();
-        GitHub_Search gitSearch =  new GitHub_Search();
-        Twitter_Search twitterSearch = new Twitter_Search();
+        GitHubSearch gitSearch =  new GitHubSearch();
+        TwitterSearch twitterSearch = new TwitterSearch();
         JsonArray result = gitSearch.search("quantum*computer");
         for(int i=0;i<limit;i++){
             project.add(result.getAsJsonArray().get(i).getAsJsonObject().get("name").toString());

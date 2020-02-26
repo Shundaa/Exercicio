@@ -1,12 +1,11 @@
 package com.wipro.exercicio;
 
 import twitter4j.*;
-import twitter4j.auth.AccessToken;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Twitter_Search {
+public class TwitterSearch {
     //Consumer Key
     static String consumerKeyStr = "rp4ZE8vyHsFAJDaJPPsedZLaR";
     static String consumerSecretStr = "L0JHYJCtOpJQ2hhBvAHLsvLUNyjqBIlBWQpE3u4ecKDjpFmyts";
@@ -17,10 +16,10 @@ public class Twitter_Search {
 
 
     //Search method that will return all tweets related to the search keyword in a List
-    public List searchForWord(String word, int limit){
+    public List<String> searchForWord(String word, int limit){
 
         //List that will be used to store the resulting tweets
-        List tweets = new ArrayList();
+        List<String> tweets = new ArrayList<String>();
 
         try {
 
@@ -54,7 +53,7 @@ public class Twitter_Search {
 
     public String tweet(String name) {
         //Instantiating current class to an object
-        Twitter_Search search = new Twitter_Search();
+        TwitterSearch search = new TwitterSearch();
 
         //Preview of the found tweets to main console
         //System.out.println(search.searchForWord(args[0],Integer.parseInt(args[1])));
