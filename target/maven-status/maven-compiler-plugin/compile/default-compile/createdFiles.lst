@@ -1,3 +1,5 @@
-com\wipro\exercicio\Main.class
-com\wipro\exercicio\GitHub_Search.class
-com\wipro\exercicio\Twitter_Search.class
+com\wipro\exercicio\controller\SearchController.class
+com\wipro\exercicio\service\TwitterSearch.class
+com\wipro\exercicio\service\SearchService.class
+com\wipro\exercicio\service\GitHubSearch.class
+com\wipro\exercicio\MvcApplication.class
