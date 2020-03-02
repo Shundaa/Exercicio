@@ -9,12 +9,12 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TwitterSearch {
-    public List<String> searchForWord(String word, int limit){
+	
+    public List<String> searchForWord(String word){
         List<String> tweets = new ArrayList<>();
         try {
             Twitter twitter = new TwitterFactory().getInstance();
             Query query = new Query(word);
-            query.setCount(5);
             QueryResult result = twitter.search(query);
             for(Status status: result.getTweets()){
                 tweets.add(status.getText());
@@ -24,9 +24,5 @@ public class TwitterSearch {
         	te.printStackTrace();
         }
         return tweets;
-    }
-    public String tweet(String name) {
-        TwitterSearch search = new TwitterSearch();
-        return search.searchForWord(name,2).toString();
     }
 }
